@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.23)  28 MAY 2018 02:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.23)  3 JUN 2018 01:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1289,7 +1289,14 @@ LaTeX Font Info:    Try loading font information for T2A+cmr on input line 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-))
+)
+
+LaTeX Warning: Label `fig:flowchart' multiply defined.
+
+
+LaTeX Warning: Label `fig:flowchart' multiply defined.
+
+)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -1314,8 +1321,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
@@ -1410,7 +1416,24 @@ z }\IeC {\cyra }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrch }\IeC {\cyri }
 ------------------------------------------------------------------------------
 [3
 
-] [4] [5]) (./Chapters/Chapter2.tex [6]
+]
+<Chapters/image/premutation.png, id=139, 290.08376pt x 141.52875pt>
+File: Chapters/image/premutation.png Graphic file (type png)
+<use Chapters/image/premutation.png>
+Package pdftex.def Info: Chapters/image/premutation.png  used on input line 81.
+ on input line 81.
+Package pdftex.def Info: Requested size: 125.24318pt x 61.1045pt on input line 
+81.
+ [4 <./Chapters/image/premutation.png>] [5]
+<Chapters/image/example.png, id=160, 628.3475pt x 612.2875pt>
+File: Chapters/image/example.png Graphic file (type png)
+<use Chapters/image/example.png>
+Package pdftex.def Info: Chapters/image/example.png  used on input line 143. on
+ input line 143.
+Package pdftex.def Info: Requested size: 210.88362pt x 205.494pt on input line 
+143.
+) (./Chapters/Chapter2.tex
+[6 <./Chapters/image/example.png>]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 ------------------------------------------------------------------------------
  3 \IeC {\CYRA }\IeC {\cyrl }\IeC {\cyrg }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri
@@ -1418,27 +1441,50 @@ z }\IeC {\cyra }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrch }\IeC {\cyri }
 e }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya }
 ------------------------------------------------------------------------------
 
-Overfull \hbox (1.98756pt too wide) in paragraph at lines 13--15
+LaTeX Warning: Command \CYRO invalid in math mode on input line 7.
+
+Missing character: There is no О in font cmr10!
+
+LaTeX Warning: Command \CYRO invalid in math mode on input line 8.
+
+Missing character: There is no О in font cmr10!
+[7
+
+]
+Overfull \hbox (1.39902pt too wide) in paragraph at lines 32--34
+[]\T2A/cmr/m/n/10.95 В неко-то-рых част-ных слу-ча-ях воз-мож-но ре-ше-ние 3-АЗ
+Н. На-при-мер, Burkard, Rudolf,
+ []
+
+
+Overfull \hbox (1.98756pt too wide) in paragraph at lines 48--50
 []\T2A/cmr/m/n/10.95 Алгоритм А на-зва-ет-ся асимп-то-ти-че-ски оп-ти-маль-ным 
 ес-ли су-ще-ствую оцен-ки $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 ^^O[]; ^^N[]
 \OT1/cmr/m/n/10.95 )$
  []
 
-[7
-
-]
-<Chapters/image/flowchart.png, id=157, 290.08376pt x 854.19125pt>
+[8]
+<Chapters/image/flowchart.png, id=176, 290.08376pt x 854.19125pt>
 File: Chapters/image/flowchart.png Graphic file (type png)
 <use Chapters/image/flowchart.png>
-Package pdftex.def Info: Chapters/image/flowchart.png  used on input line 37. o
-n input line 37.
+Package pdftex.def Info: Chapters/image/flowchart.png  used on input line 81. o
+n input line 81.
 Package pdftex.def Info: Requested size: 232.61617pt x 684.97014pt on input lin
-e 37.
+e 81.
 
 
-LaTeX Warning: Float too large for page by 21.99706pt on input line 40.
+LaTeX Warning: Float too large for page by 21.99706pt on input line 84.
 
-) (./Chapters/Chapter3.tex [8] [9 <./Chapters/image/flowchart.png>] [10]
+[9] [10 <./Chapters/image/flowchart.png>]
+
+LaTeX Warning: Command \CYRM invalid in math mode on input line 91.
+
+Missing character: There is no М in font cmr10!
+
+LaTeX Warning: Command \CYRM invalid in math mode on input line 94.
+
+Missing character: There is no М in font cmr10!
+) (./Chapters/Chapter3.tex [11]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
 ------------------------------------------------------------------------------
  4 \IeC {\CYRP }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyrr }\IeC {\cyra
@@ -1451,7 +1497,7 @@ eC {\cyrishrt } \IeC {\cyrerev }\IeC {\cyrk }\IeC {\cyrs }\IeC {\cyrp }\IeC {\c
 yre }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyre }\IeC {\cyrn }\IeC {\cy
 rt }
 ------------------------------------------------------------------------------
-) [11
+) [12
 
 ]
 ------------------------------------------------------------------------------
@@ -1464,17 +1510,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A74E5367FB0A9B97DDE7F1A797B5C815;4033.
+(rerunfilecheck)             Checksum: D67D149B4E348E09876120D9DA688E7B;4477.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
  ) 
 Here is how much of TeX's memory you used:
- 23983 strings out of 492990
- 405427 string characters out of 6135005
+ 23999 strings out of 492990
+ 405793 string characters out of 6135005
  459906 words of memory out of 5000000
- 27066 multiletter control sequences out of 15000+600000
+ 27076 multiletter control sequences out of 15000+600000
  21286 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,54p,13210b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,54p,13210b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
@@ -1495,10 +1545,10 @@ m1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/shar
 e/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/
 public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti
 1095.pfb>
-Output written on Thesis.pdf (13 pages, 319371 bytes).
+Output written on Thesis.pdf (14 pages, 347992 bytes).
 PDF statistics:
- 269 PDF objects out of 1000 (max. 8388607)
- 227 compressed objects within 3 object streams
- 43 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 289 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 172 words of extra memory for PDF output out of 10000 (max. 10000000)
 
